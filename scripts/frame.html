@@ -1,0 +1,11 @@
+<title>frame</title>
+<style>html,body{margin:0;background:#0d1117}</style>
+<object id="o" type="image/svg+xml" data="../dist/dark.svg" width="1180" height="610"></object>
+<script>
+const t = parseFloat(new URLSearchParams(location.search).get('t') || '4');
+document.getElementById('o').addEventListener('load', function () {
+  const svg = this.contentDocument.documentElement;
+  svg.pauseAnimations();
+  svg.setCurrentTime(t);
+});
+</script>

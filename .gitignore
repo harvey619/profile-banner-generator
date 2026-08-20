@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+data/f_*.png
+data/n_*.png
+data/render_*.png
+data/zoom_*.png
+data/preview_*.png
+data/mask_check.png
